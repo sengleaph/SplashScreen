@@ -17,8 +17,8 @@ class ProfileScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text('Profile Screen', style: TextStyle(fontSize: 40),),
-            ElevatedButton(onPressed: () => clearSharedPreferences(), child: Text('Clear SharedPreferences'))
+            Text('Please Welcome \n\t\t\t\t\t\t\t\t\t to the\n \t\t\t\t\t\tSCREEN', style: TextStyle(fontSize: 40),),
+            ElevatedButton(onPressed: () => clearSharedPreferences(), child: Text('Clear App'))
           ],
         ) ,
       ),

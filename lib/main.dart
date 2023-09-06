@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:local_store/profile_page.dart';
+import 'package:local_store/splashscreen_page.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-
-import 'splashscreen_page.dart';
 
 // import 'package:flutter/S';
 void main() {
@@ -77,6 +76,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
         child: newLaunch! ? const SplashScreen() : const ProfileScreen(),
+
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
